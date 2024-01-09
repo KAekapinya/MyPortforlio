@@ -1,0 +1,557 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #F7F7F2;
+    font-family: 'Roboto', sans-serif;
+}
+
+section.header{
+    width: 100%;
+    height: 100vh; 
+    /* background:url("Pictures/GreetingImg.jpg")center no-repeat; */
+    background-color: whitesmoke;
+    line-height: 1.5;
+    
+}
+
+img{
+    display: flex;
+    width: auto;
+    height: auto;
+    box-shadow: 2px 2px 4px black;
+    border-radius: 5px;
+    
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header{
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    top: 0;
+    /* box-shadow: 2px 2px 4px black; */
+    z-index: 3;
+}
+
+.Greeting{
+    margin: 185px 90px;
+    
+    font-size: 40px;
+    color: black;
+    z-index: 1;
+    
+    /* text-shadow: 2px 2px 4px; */
+}
+
+
+
+footer{
+        width: 100%;
+        background-color: #3A3C43;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+}
+
+nav{
+    height:  7.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.Footer{
+    justify-content: right;
+    color: whitesmoke;
+    font-size: 1.6rem;
+}
+
+#Contact{
+    padding-left: 5px;
+}
+
+.logo{
+    font-size: 2.5rem;
+    color: whitesmoke;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    margin: 0 1.5rem; 
+}
+
+
+
+li a{
+    color: white;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+section{
+    /* height: 100vh; */
+    padding: 5rem 0;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    /* visibility: hidden; */
+}
+
+.detail{
+    flex: 1 0 130px;
+}
+.img{
+    display: flex;
+    flex: 1 0 130px;
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-bottom: 20px;
+}
+
+h5{
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+a.btn-resume{
+    text-decoration: none;
+}
+.resume {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin: 20px;
+    color: white;
+    background-color:#119da4;
+    border: 2px solid black;
+    font-size: 18px;
+    box-shadow: 2px 2px 4px black;;
+
+     
+}
+
+.resume :hover{
+    cursor: pointer;
+}
+
+span{
+    padding: 10px;
+}
+
+#About{
+    clip-path: polygon(0 10vh,100% 0,100% 100%,0 100%);
+    color: #fff;
+    background-image: linear-gradient(135deg,#cf9893 0%,#119da4 100%);
+    margin-top: -10rem;
+    margin-bottom: -1px;
+    padding: 15rem 0 10rem;
+    z-index: -2;
+    /* visibility: hidden; */
+
+    
+}
+
+/* #Skills{
+    color: #fff;
+    clip-path: polygon(0 0,100% 0,100% 80%,0 100%);
+    background-color: #cf9893;
+    background-image: linear-gradient(135deg,#cf9893 0%,#119da4 100%);
+    border-top: 0;
+    height: 100%;
+
+} */
+
+h2{
+    color: whitesmoke;
+}
+
+h6{
+    font-size: 17px;
+}
+
+p{
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+.companyLogo{
+    width: 150px;
+    height: 150px;
+    margin: 50px 100px;
+}
+
+.companyLogo:hover{
+    transition: all .35s;
+    width: 200px;
+    height: 200px;
+}
+
+.experiences{
+    display: flex;
+    flex-direction: column;
+}
+
+.Respond-list{
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.work{
+    padding-top: 20px;
+
+}
+.exp{
+    /* background-color: #FFF9E3; */
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px black;
+}
+
+#Zenyum{
+    margin-top:100px
+}
+
+
+span.Skills{
+    display: inline;
+}
+
+img.techLogo{
+    display: inline;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    box-shadow: none;
+    margin: 30px 40px;
+}
+
+.Highlight{
+    color: #119da4;
+}
+
+
+.wrapper{
+    position: absolute;
+    /* top: 50%;
+    left: 50%; */
+    /* top: 60%;
+    left: 13.5%; */
+    margin-left: 185px;
+    padding-bottom: 200px;
+    transform: translate(-50%, -50%);
+  }
+  
+  a.btn{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+  
+  a span{
+    position: relative;
+    z-index: 2;
+  }
+ 
+  
+  a.btn:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background:#119da4;
+    transition: all .35s;
+  }
+  
+  a.btn:hover{
+    color: #fff;
+  }
+  
+  a:hover:after{
+    width: 100%;
+  }
+
+  body{
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .wrapper-resume{
+   position: absolute;
+    
+    
+    margin-top: 40px;
+    margin-left: 218px;
+    
+    /* position: relative;
+    top: 50%;
+    left: 50%; */
+    transform: translate(-50%, -50%);
+  }
+  
+  .Skills{
+    display: block
+    /* justify-content: ; */
+  }
+
+  .Up{
+    position: fixed;
+    right: 5%;
+    bottom: 15%;
+  }
+  
+  .link_wrapper{
+    position: relative;
+  }
+  
+  a.resumeBtn{
+    display: block;
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    background: #333;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 3px solid #333;
+    transition: all .35s;
+  }
+  
+  .icon{
+    width: 50px;
+    height: 50px;
+    border: 3px solid transparent;
+    position: absolute;
+    transform: rotate(45deg);
+    right: 0;
+    top: 0;
+    z-index: -1;
+    transition: all .35s;
+  }
+  
+  .icon svg{
+    width: 30px;
+    position: absolute;
+    top: calc(50% - 15px);
+    left: calc(50% - 15px);
+    transform: rotate(-45deg);
+    fill: #2ecc71;
+    transition: all .35s;
+  }
+  
+  a.resumeBtn:hover{
+    width: 200px;
+    border: 3px solid #2ecc71;
+    background: transparent;
+    color: #2ecc71;
+  }
+  
+  a.resumeBtn:hover + .icon{
+    border: 3px solid #2ecc71;
+    right: -25%;
+  }
+  
+/* Block Div Check */
+/* div{
+    border: 1px solid black;
+} */
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: whitesmoke;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color:black;}
+
+
+  /* Dropdown Button */
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: black;}
+
+
+.fa-arrow-up{
+    position: fixed;
+    right: 3rem;
+    bottom: 10rem;
+    color: black;
+   font-size: 30px;
+    /* border: 2px solid black;
+    border-radius: 100px; */
+    padding: 15px;
+    background-color: transparent;
+    z-index: 111;
+    cursor: pointer;
+    visibility: hidden;
+    transform: translateY(0);
+    transition: all 0.3s;
+}
+
+.show-btn{
+    visibility: visible ;
+    /* transform:translateY(0); */
+}
+
+.show-detail{
+    visibility: visible;
+    transition: all 0.3s ease-in;
+}
+
+/* .card{
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+}
+.card-inner{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.999s;
+}
+
+.card:hover .card-inner{
+    transform: rotateY(-180deg);
+}
+
+.front,
+.back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.front{
+    transform:rotateY(0deg);
+}
+
+.back{
+    transform: rotateY(180deg);
+} */
+
+
+  
+
+
+
+
+
+
+
+

@@ -1,6 +1,13 @@
 const scrollBtn = document.querySelector(".fa-arrow-up");
 const rootEle = document.documentElement;
-const scrollDetail = document.querySelector('.wrap')
+const scrollDetail = document.querySelector('.wrap');
+const container = document.getElementById('container');
+const img = document.querySelectorAll('#container img');
+
+//ตัวนับภาพ
+let idx = 0;
+let interval = setInterval(slide,2000);
+
 let i = 0;
 const txt = `Greeting :D`; /* The text */
 let speed = 100;
@@ -32,7 +39,7 @@ function showDetail(){
        }else{
        scrollDetail.classList.remove("show-detail");
        }
-}
+};
 function typeWriter() {
   if (i < txt.length) {
     document.getElementById("TypeText").innerHTML += txt.charAt(i);
@@ -40,7 +47,14 @@ function typeWriter() {
     i++;
     setTimeout(typeWriter, speed);
   }
-}
+};
 function showAlert(){
     alert("I'm currently working on optimizing the website for all devices. In the meantime, you may experience some viewing limitations on smaller screens.")
-}
+};
+function slide(){
+    idx++;
+    changeImage();
+};
+// function changeImage(){
+//     container.style.transform=`translateX(${idx*500}px)`
+// };

@@ -545,6 +545,56 @@ img.techLogo{
     transform: rotateY(180deg);
 } */
 
+/* img.slider{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.carousel{
+    width: 250px;
+    overflow: hidden;
+    height: 275px;
+    box-shadow: 2px 2px 5px black;
+    margin-top: 20px;
+    margin-left: 580px;
+}
+
+.image-container{
+    display: flex;
+    transform: translateX(0);
+    
+    transition: transform 0.5 ease-in-out;
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    width: 49.5%;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 0.9;
+} */
+
+.pending{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    padding-left: 35%;
+    font-size: 50px;
+}
+
+
 
   
 

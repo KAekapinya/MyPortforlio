@@ -50,8 +50,7 @@ header{
 }
 
 .Greeting{
-    margin: 185px 90px;
-    
+    margin: 115px 90px;  
     font-size: 40px;
     color: black;
     z-index: 1;
@@ -183,13 +182,13 @@ span{
 }
 
 /* #Skills{
+    clip-path: polygon(0 5vh,100% 0,100% 100%,0 100%);
     color: #fff;
-    clip-path: polygon(0 0,100% 0,100% 80%,0 100%);
-    background-color: #cf9893;
     background-image: linear-gradient(135deg,#cf9893 0%,#119da4 100%);
-    border-top: 0;
-    height: 100%;
-
+    margin-top: -10rem;
+    margin-bottom: -1px;
+    padding: 15rem 0 10rem;
+    z-index: -2;
 } */
 
 h2{
@@ -208,7 +207,7 @@ p{
 .companyLogo{
     width: 150px;
     height: 150px;
-    margin: 50px 100px;
+    margin: 80px 100px;
 }
 
 .companyLogo:hover{
@@ -238,7 +237,7 @@ p{
 }
 
 #Zenyum{
-    margin-top:100px
+    margin-top:150px
 }
 
 
@@ -267,7 +266,7 @@ img.techLogo{
     /* top: 60%;
     left: 13.5%; */
     margin-left: 185px;
-    padding-bottom: 200px;
+    padding-bottom: 150px;
     transform: translate(-50%, -50%);
   }
   
@@ -585,13 +584,47 @@ img.techLogo{
     opacity: 0.9;
 } */
 
-.pending{
+.projectZen{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.agat{
     display: flex;
-    justify-content: center;
     align-items: center;
-    height: 50vh;
-    padding-left: 35%;
-    font-size: 50px;
+    justify-content: center;
+    margin-top: 20px;
+    /* margin-left: 250px; */
+    
+}
+
+.agat2{
+    display: flex;
+    padding-left: 50px;
+}
+
+.zenDay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    /* margin-left: 250px; */
+    margin-bottom: 30px;
+}
+
+.Agat3{
+    margin-left: 30px;
+    padding-left: 30px;
+}
+
+#Skills{ 
+    clip-path: polygon(0 10vh,100% 13%,100% 100%,0 100%);
+    color: #fff;
+    background-image: linear-gradient(135deg,#cf9893 0%,#119da4 100%);
+    margin-top: -10rem;
+    margin-bottom: -1px;
+    padding: 15rem 0 10rem;
 }
 
 
